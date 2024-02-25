@@ -5,10 +5,15 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "LUG-Learn",
       social: {
-        github: "https://github.com/withastro/starlight",
+        linkedin: "https://de.linkedin.com/company/lutzundgrub",
       },
+      logo: {
+        dark: "./src/assets/dark--line-md--cloud-braces-loop.svg",
+        light: "./src/assets/light--line-md--cloud-braces-loop.svg",
+      },
+      customCss: ["./src/styles/global.css", "./src/fonts/font-face.css"],
       sidebar: [
         {
           label: "Start",

@@ -1,0 +1,55 @@
+:root {
+  --sl-font: "MonaspaceArgonVar";
+  --sl-font-mono: "MonaspaceKryptonVar";
+}
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #321342;
+	--sl-color-accent: #9a00d2;
+	--sl-color-accent-high: #dcb8f3;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #ebeef6;
+	--sl-color-gray-2: #bec2cb;
+	--sl-color-gray-3: #858b9d;
+	--sl-color-gray-4: #525868;
+	--sl-color-gray-5: #323847;
+	--sl-color-gray-6: #212635;
+	--sl-color-black: #16181f;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #e6cbf8;
+	--sl-color-accent: #9d00d6;
+	--sl-color-accent-high: #481262;
+	--sl-color-white: #16181f;
+	--sl-color-gray-1: #212635;
+	--sl-color-gray-2: #323847;
+	--sl-color-gray-3: #525868;
+	--sl-color-gray-4: #858b9d;
+	--sl-color-gray-5: #bec2cb;
+	--sl-color-gray-6: #ebeef6;
+	--sl-color-gray-7: #f5f6fa;
+	--sl-color-black: #ffffff;
+}
+main {
+  font-family: "MonaspaceNeonVar";
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "MonaspaceXenonVar";
+}
+.sidebar-content a,
+.right-sidebar-panel nav a {
+  transition: all .5s ease;
+  font-variation-settings:
+      "wght" 400,
+      "wdth" 100,
+      "slnt" 0;
+}
+.sidebar-content a:hover,
+.right-sidebar-panel nav a:hover {
+  font-variation-settings:
+      "wght" 500,
+      "wdth" 105,
+      "slnt" -11;
+  text-shadow: 0 0 5px var(--sl-color-accent-high);
+}
