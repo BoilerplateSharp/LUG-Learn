@@ -1,0 +1,3 @@
+[submodule "src/content/docs"]
+	path = src/content/docs
+	url = https://github.com/BoilerplateSharp/LUG-Docs.git
