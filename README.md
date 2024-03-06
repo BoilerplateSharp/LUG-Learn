@@ -9,6 +9,10 @@ npm install # Installiert alle Abhängigkeiten
 npm run dev # Startet den Dev-Server
 ```
 
+## Testing with Dev-Container
+
+tbd
+
 ## 🚀 Projektstruktur
 
 Innerhalb des Projekts findest du die folgenden Ordner und Dateien:
