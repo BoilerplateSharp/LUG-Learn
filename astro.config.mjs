@@ -39,6 +39,10 @@ export default defineConfig({
           label: "Astro",
           autogenerate: { directory: "astro" },
         },
+        {
+          label: "Git",
+          autogenerate: { directory: "git" },
+        },
       ],
     }),
   ],
