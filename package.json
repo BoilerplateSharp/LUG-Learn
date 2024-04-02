@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "slides": "cp -r ./src/content/docs/slides ./public"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.19.1",
