@@ -12,6 +12,9 @@ export default defineConfig({
       social: {
         linkedin: "https://de.linkedin.com/company/lutzundgrub",
       },
+      editLink: {
+        baseUrl: "https://github.com/BoilerplateSharp/LUG-Docs/edit/main",
+      },
       logo: {
         dark: "./src/assets/dark--line-md--cloud-braces-loop.svg",
         light: "./src/assets/light--line-md--cloud-braces-loop.svg",
@@ -19,6 +22,7 @@ export default defineConfig({
       customCss: ["./src/styles/global.css", "./src/fonts/font-face.css"],
       components: {
         Head: "./src/components/Head.astro",
+        EditLink: "./src/components/EditLink.astro",
       },
       sidebar: [
         {
