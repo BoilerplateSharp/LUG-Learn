@@ -20,9 +20,6 @@ export default defineConfig({
       components: {
         Head: "./src/components/Head.astro",
       },
-      editLink: {
-        baseUrl: "https://github.com/BoilerplateSharp/LUG-Learn/edit/main",
-      },
       sidebar: [
         {
           label: "Start",
@@ -33,12 +30,12 @@ export default defineConfig({
               link: "/start/start",
             },
             {
-              label: "Übersicht",
-              link: "/start/overview",
-            },
-            {
               label: "Mithelfen",
               link: "/start/contribution",
+            },
+            {
+              label: "Style-Guide",
+              link: "/start/style-guide",
             },
           ],
         },
