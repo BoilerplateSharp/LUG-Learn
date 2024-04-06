@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
       title: "LUG-Learn",
       description:
         "Guides, Ressourcen und Referenzen rund um Anwendungsentwicklung, Systemintegration und andere IT-Themen.",
+      defaultLocale: "de",
       social: {
         linkedin: "https://de.linkedin.com/company/lutzundgrub",
       },
@@ -70,6 +72,9 @@ export default defineConfig({
           badge: "New",
         },
       ],
+      expressiveCode: {
+        plugins: [pluginLineNumbers()],
+      },
     }),
   ],
 });

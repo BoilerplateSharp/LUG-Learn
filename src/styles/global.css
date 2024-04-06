@@ -1,6 +1,7 @@
 :root {
   --sl-font: "MonaspaceArgonVar";
   --sl-font-mono: "MonaspaceKryptonVar";
+	--sl-content-width: 80ch;
 }
 /* Dark mode colors. */
 :root {
@@ -37,6 +38,18 @@ main {
 h1,h2,h3,h4,h5,h6 {
   font-family: "MonaspaceXenonVar";
 }
+.sl-markdown-content em {
+	font-variation-settings: 
+		"wght" 500,
+		"wdth" 105,
+		"slnt" -11;
+}
+.sl-markdown-content strong {
+	font-variation-settings: 
+		"wght" 600,
+		"wdth" 105,
+		"slnt" 0;
+}
 .sidebar-content a,
 .right-sidebar-panel nav a {
   transition: all .5s ease;
@@ -44,6 +57,10 @@ h1,h2,h3,h4,h5,h6 {
       "wght" 400,
       "wdth" 100,
       "slnt" 0;
+	padding-right: 8px;
+}
+.right-sidebar-panel a {
+	font-size: 0.9em;
 }
 .sidebar-content a:hover,
 .right-sidebar-panel nav a:hover {
@@ -52,4 +69,6 @@ h1,h2,h3,h4,h5,h6 {
       "wdth" 105,
       "slnt" -11;
   text-shadow: 0 0 5px var(--sl-color-accent-high);
+	/* Prevent layout-shift */
+	padding-right: 0;
 }
