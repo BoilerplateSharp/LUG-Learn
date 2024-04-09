@@ -49,11 +49,15 @@ export default defineConfig({
         {
           label: "Git",
           autogenerate: { directory: "git" },
-          badge: "New",
         },
         {
           label: "Dev-Setup",
           autogenerate: { directory: "devsetup" },
+          badge: "New",
+        },
+        {
+          label: "Linux",
+          autogenerate: { directory: "linux" },
           badge: "New",
         },
         {
