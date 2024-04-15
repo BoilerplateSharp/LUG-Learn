@@ -1,4 +1,4 @@
-# LUG-Docs
+# LUG-Docs &middot; [![Netlify Status](https://api.netlify.com/api/v1/badges/2a09fb21-97e2-4c63-9f73-acb6c9367c4c/deploy-status)](https://app.netlify.com/sites/lug-learn/deploys)
 
 ## Local Development
 
