@@ -5,6 +5,9 @@ import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 // https://astro.build/config
 export default defineConfig({
   site: "https://lug-learn.netlify.app/",
+  devToolbar: {
+    enabled: false,
+  },
   integrations: [
     starlight({
       title: "LUG-Learn",
@@ -50,10 +53,12 @@ export default defineConfig({
           label: "UML",
           autogenerate: { directory: "uml" },
           badge: "New",
+          collapsed: true,
         },
         {
           label: "Git",
           autogenerate: { directory: "git" },
+          collapsed: true,
         },
         {
           label: "Dev-Setup",
