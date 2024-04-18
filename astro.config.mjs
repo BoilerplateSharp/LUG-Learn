@@ -36,7 +36,7 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             {
               label: "Startseite",
-              link: "/start/start",
+              link: "/",
             },
             {
               label: "Mithelfen",
