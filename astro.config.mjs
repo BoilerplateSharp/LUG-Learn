@@ -58,7 +58,6 @@ export default defineConfig({
         {
           label: "UML",
           autogenerate: { directory: "uml" },
-          badge: "New",
           collapsed: true,
         },
         {
@@ -74,20 +73,23 @@ export default defineConfig({
           label: "Linux",
           autogenerate: { directory: "linux" },
           badge: "New",
+          collapsed: true,
         },
         {
           label: "Powershell",
           autogenerate: { directory: "powershell" },
           badge: "New",
+          collapsed: true,
         },
         {
           label: "Astro",
-          collapsed: true,
           autogenerate: { directory: "astro" },
+          collapsed: true,
         },
         {
           label: "C#",
           autogenerate: { directory: "csharp" },
+          collapsed: true,
         },
         {
           label: "Webentwicklung",
